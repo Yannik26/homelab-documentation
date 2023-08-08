@@ -3,6 +3,8 @@ title: Kubernetes
 layout: page
 ---
 # Kubernetes Setup
-For Kubernetes k3s will be used.
-## Install k3s
-
+For Kubernetes [K3S](https://k3s.io) will be used.
+## Install OS
+Debian is used
+## Install K3S
+	curl -sfL https://get.k3s.io | sh - 
