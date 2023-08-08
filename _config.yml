@@ -1,5 +1,5 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Homelab Docs
+description: This is the documentation of my homelab setup and configuration. Multiple containers are running on k3s.
 theme: just-the-docs
 
 url: https://docs.yannikmueller.eu
