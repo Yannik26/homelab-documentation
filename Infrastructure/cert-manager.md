@@ -1,3 +1,4 @@
 ---
 title: Certmanager
+parent: Infrastructure
 ---

@@ -1,3 +1,4 @@
 ---
 title: Traefik
+parent: Infrastructure
 ---
