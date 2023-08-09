@@ -1,5 +1,6 @@
 ---
-title: Kubernetes 
+title: Kubernetes
+nav_order: 1
 layout: page
 ---
 # Kubernetes Setup
