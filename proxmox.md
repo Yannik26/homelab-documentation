@@ -30,4 +30,16 @@ This step is fully optional. Follow if you want to use OVS (Open Virtual Switch)
 5. Repeat this for your VLANs
 6. Apply the config
 
+## Allow only ssh login with keys
+    ssh-copy-id -i _/path/to/your/public/key_ _<user>_@_<host>_
+Edit /etc/ssh/sshd_config:
+    PermitRootLogin yes
+    PubkeyAuthentication yes
+    PubkeyAuthentication yes
+Restart sshd service:
+    systemctl restart sshd
+
+## Prepare for Ansible
+    apt install python3-pip python3-dev python3-virtualenv python3-proxmoxer python3-requests build-essential libguestfs-tools
+
 
